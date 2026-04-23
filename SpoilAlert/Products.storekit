@@ -1,0 +1,64 @@
+{
+  "identifier": "SpoilAlert",
+  "products": [
+    {
+      "displayPrice": "49.99",
+      "familyShareable": false,
+      "internalID": "lifetime_001",
+      "localizations": [
+        {
+          "description": "One-time purchase, forever access",
+          "displayName": "SpoilAlert Pro Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.zzoutuo.SpoilAlert.pro.lifetime",
+      "type": "NonConsumable"
+    }
+  ],
+  "subscriptionGroups": [
+    {
+      "id": "SpoilAlert_Pro",
+      "localizations": [],
+      "name": "SpoilAlert Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "displayPrice": "2.99",
+          "displayPriceLocale": "en_US",
+          "introductoryOffer": null,
+          "productID": "com.zzoutuo.SpoilAlert.plus.monthly",
+          "recurringSubscriptionPeriod": "P1M"
+        },
+        {
+          "adHocOffers": [],
+          "displayPrice": "19.99",
+          "displayPriceLocale": "en_US",
+          "introductoryOffer": null,
+          "productID": "com.zzoutuo.SpoilAlert.plus.yearly",
+          "recurringSubscriptionPeriod": "P1Y"
+        },
+        {
+          "adHocOffers": [],
+          "displayPrice": "4.99",
+          "displayPriceLocale": "en_US",
+          "introductoryOffer": null,
+          "productID": "com.zzoutuo.SpoilAlert.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M"
+        },
+        {
+          "adHocOffers": [],
+          "displayPrice": "34.99",
+          "displayPriceLocale": "en_US",
+          "introductoryOffer": null,
+          "productID": "com.zzoutuo.SpoilAlert.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0
+  }
+}
