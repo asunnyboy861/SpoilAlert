@@ -221,20 +221,21 @@ Add to `SpoilAlert.entitlements`:
 - [x] Photo Library capability verified working
 - [x] Push Notifications capability verified working
 - [x] In-App Purchase capability verified working
+- [x] All auto-configured capabilities build test passed ✅
 
 ### Manual Configuration (To Do)
 - [ ] iCloud/CloudKit manually configured (for Pro tier sync)
 - [ ] Background Modes manually configured (for notifications)
 - [ ] App Groups manually configured (for widget - optional)
-- [ ] All capabilities build test passed
 
 ---
 
 ## Build Verification Log
 
-| Date | Build Status | Capabilities Tested |
-|------|--------------|---------------------|
-| 2026-04-23 | ✅ SUCCEEDED | Camera, Photo Library, Notifications, StoreKit |
+| Date | Build Status | Capabilities Tested | Xcode Settings |
+|------|--------------|---------------------|----------------|
+| 2026-04-23 | ✅ SUCCEEDED | Camera, Photo Library, Notifications, StoreKit | `GENERATE_INFOPLIST_FILE = YES`, `IPHONEOS_DEPLOYMENT_TARGET = 17` |
+| 2026-04-23 | ✅ SUCCEEDED | All core capabilities verified | Bundle ID: `com.zzoutuo.SpoilAlert` |
 
 ---
 
